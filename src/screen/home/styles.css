@@ -1,0 +1,46 @@
+.homeContainer {
+    display: flex;
+    margin-left: 124px;
+}
+
+.column {
+    height: 100%;
+}
+
+.sidebarColumn {
+    width: 332px;
+    position: sticky;
+    top: 0;
+}
+
+.feedColumn {
+    border: 1px solid var(--Grayscale-Container-Line, #F0F3F4);
+    width: fit-content;
+}
+
+.suggestionColumn {
+    width: 293px;
+}
+
+.homeHeader {
+    padding: 16px;
+}
+
+.feedColumns {
+    display: flex;
+    align-items: center;
+}
+
+.forYouColumn{
+    flex: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.followingColumn{
+    flex: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

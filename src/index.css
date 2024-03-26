@@ -1,13 +1,127 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Color palette */
+:root {
+    --primary-light: #A5CCF4;
+    --primary-main: #4A99E9;
+    --primary-dark: #428AD2;
+    --state-error: #E03C39;
+}
+
+
+/* Typography */
+
+* {
+    font-family: Inter, sans-serif;
+    margin: 0;
+}
+
+.h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 61.6px */
+    letter-spacing: -0.84px;
+}
+
+.h2 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 48.4px */
+    letter-spacing: -0.22px;
+}
+
+.h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 35.2px */
+}
+
+.h4 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 26.4px */
+    letter-spacing: -0.12px;
+}
+
+.h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 22px */
+    letter-spacing: -0.1px;
+}
+
+.h6 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: 0.027px;
+}
+
+.body1 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 17.6px */
+    letter-spacing: 0.08px;
+    text-transform: capitalize;
+}
+
+.body2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 15.4px */
+    letter-spacing: 0.035px;
+    text-transform: capitalize;
+}
+
+.mini {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 11px */
+    letter-spacing: 1px;
+}
+
+.miniBold {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 11px */
+    letter-spacing: 1px;
+}
+
+.body1bold {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 17.6px */
+    letter-spacing: 0.08px;
+}
+
+.bodyBold {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: -0.15px;
+}
+

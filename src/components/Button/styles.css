@@ -1,0 +1,53 @@
+.button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 16px;
+    border-radius: 40px;
+    justify-content: center;
+    border: none;
+}
+
+.buttonLarge {
+    display: inline-flex;
+    padding: 8px 192px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttonMedium {
+    display: inline-flex;
+    padding: 8px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttonSmall {
+    display: inline-flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttonDefault {
+    background: var(--primary-main);
+    color: white;
+}
+
+.buttonHover {
+    background: var(--primary-dark);
+    color: white;
+}
+
+.buttonDisabled {
+    background: var(--primary-light);
+    color: white;
+}
+
+.buttonClose {
+    background: var(--state-error);
+    color: white;
+}

@@ -1,0 +1,9 @@
+.tabsHome {
+    display: flex;
+    padding: 16px 104px 24px 104px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-bottom: 1px solid var(--Grayscale-Container-Line, #F0F3F4);
+}

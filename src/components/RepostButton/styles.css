@@ -1,0 +1,17 @@
+.repostButton {
+    background-color: #fff;
+    border: none;
+    padding: 6px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.repostButtonContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+}

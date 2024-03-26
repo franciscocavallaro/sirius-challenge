@@ -1,0 +1,46 @@
+.otherUserTweetContainer {
+    display: flex;
+    width: 600px;
+    height: 161px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid var(--Grayscale-Container-Line, #F0F3F4);
+    padding: 16px;
+}
+
+.posterInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.posterInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.tweetContent {
+    display: flex;
+    padding-left: 56px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.tweetStats {
+    display: flex;
+    padding: 0px 8px 0px 56px;
+    align-items: center;
+    gap: 24px;
+}
+
+.otherUserAvatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+
